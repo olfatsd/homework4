@@ -1,0 +1,87 @@
+
+input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    border-color: black;
+    width: 300px;
+    height: 40px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    text-align: center;
+    width: 90%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+.img{
+    width: 200px;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.look2{
+    text-align: center;
+}
+.look{
+    border: solid;
+    border-radius: 8px;
+    border-color: black;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.flexboxContainer{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.button {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: none;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+}
+.button1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: none;
+    color: black;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
+#index{
+    text-align: center;
+    margin-top: 20%;
+}
+#body {
+    background-image: url('https://media.istockphoto.com/id/959839190/vector/vector-hand-drawn-seamless-pattern-of-burgers-tomato-and-onion-hand-drawn-set-of-fast-food.jpg?s=612x612&w=0&k=20&c=pUA7RFyXZi24zUWL3ToCAoHVHS9Xa_QH4wGDnobytdM=');
+}
+#signIn{
+    right: 30px;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    width: 50%;
+    height: 250px;
+    /* margin-top: 10%; */
+}
+#signUp{
+    padding-left: 30%;
+}
